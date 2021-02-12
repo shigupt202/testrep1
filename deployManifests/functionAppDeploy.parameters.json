@@ -3,13 +3,13 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "appName": {
-            "value": "${{acc.FUNCTION_APP_NAME}}"
+            "value": "testapp"
         },
         "runtime": {
-            "value": "${{acc.RUN_TIME}}"
+            "value": "node"
         },
         "appInsightsLocation": {
-            "value": "${{acc.APP_INSIGHTS_LOCATION}}"
+            "value": "eastus"
         }
       }
   }

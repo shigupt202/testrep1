@@ -3,8 +3,8 @@ on:
 
 name: Provision azure resources
 env:
-  RESOURCE_GROUP_NAME: ${{acc.RESOURCE_GROUP}}
-  RESOURCE_GROUP_LOCATION: ${{acc.RESOURCE_GROUP_LOCATION}}
+  RESOURCE_GROUP_NAME: shigupt-testrg
+  RESOURCE_GROUP_LOCATION: eastus
 
 jobs:
   provision-azure-resources:
